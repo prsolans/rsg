@@ -8,7 +8,7 @@ html, body { font-family: 'Lato', sans-serif; font-weight: 100; font-size: 24px;
 
 h1 { } 
 
-main { min-height: 100px; }
+main { background: #ccc; min-height: 300px; }
 
 // Helper mixin for offset positioning
 // About: http://hugogiraudel.com/2013/08/05/offsets-sass-mixin/

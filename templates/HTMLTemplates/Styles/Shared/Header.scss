@@ -1,4 +1,6 @@
-﻿header { background: black; color: white; height: 63px; }
+﻿@import '../colors';
+
+header { background: black; color: white; height: 63px; }
 
 nav {
 	padding: 8px 0; 
@@ -10,5 +12,13 @@ nav {
     ul {
     	padding-left: 35px; margin: 0;
         li.nav-item { clear: none; display: inline; font-size: 12px; font-weight: 400; list-style: none; padding-right: 20px; text-transform:uppercase; }
+		li.nav-item.active { color: $blue-dark; }    		
     }
+
+    ul.subnav { background: white; clear: both; display: none; line-height: 13px; margin: 0; padding: 40px 0; text-align: center; width: 100%; 
+		li.subnav-item { color: black; display: inline; font-family: 'Lato'; font-size: 13px; font-weight: 700; list-style: none; text-transform: uppercase; }
+		li.subnav-item+li.subnav-item:before { content: ''; padding-right: 50px; }
+	}
+
+	ul.subnav.active { display: inline-block !important; }
 }

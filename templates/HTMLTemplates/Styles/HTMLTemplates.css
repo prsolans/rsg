@@ -35,29 +35,29 @@ html[xmlns] .clearfix {
   font-family: 'Lato Bold';
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000033}}
 header {
   background: black;
   color: white;
   height: 63px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000035}}
 nav {
   padding: 8px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000037}}
 nav .banner {
   display: inline;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000038}}
 nav .banner .calendar-icon {
   float: left;
   padding-right: 20px;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000039}}
 nav .banner .banner-flag {
   background-image: url(../Assets/flag-blue.png);
   background-repeat: no-repeat;
@@ -68,12 +68,12 @@ nav .banner .banner-flag {
   text-align: center;
   width: 139px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000312}}
 nav ul {
   padding-left: 35px;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000314}}
 nav ul li.nav-item {
   clear: none;
   display: inline;
@@ -82,6 +82,40 @@ nav ul li.nav-item {
   list-style: none;
   padding-right: 20px;
   text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000315}}
+nav ul li.nav-item.active {
+  color: #5661b1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000318}}
+nav ul.subnav {
+  background: white;
+  clear: both;
+  display: none;
+  line-height: 13px;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000319}}
+nav ul.subnav li.subnav-item {
+  color: black;
+  display: inline;
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: 700;
+  list-style: none;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000320}}
+nav ul.subnav li.subnav-item + li.subnav-item:before {
+  content: '';
+  padding-right: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000323}}
+nav ul.subnav.active {
+  display: inline-block !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000033}}
@@ -115,8 +149,9 @@ footer .social img {
 footer .locations {
   background: #283278;
   color: #607ecf;
-  font-family: 'Lato Bold', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
+  font-weight: 700;
   padding: 32px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000310}}
@@ -159,8 +194,9 @@ footer .major-links img {
 footer .minor-links {
   background: #0e122e;
   color: #5661b1;
-  font-family: 'Lato Regular', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
+  font-weight: 400;
   padding: 20px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000324}}
@@ -181,5 +217,6 @@ html, body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/merge\/Documents\/projects\/RedSquare\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000311}}
 main {
-  min-height: 100px;
+  background: #ccc;
+  min-height: 300px;
 }

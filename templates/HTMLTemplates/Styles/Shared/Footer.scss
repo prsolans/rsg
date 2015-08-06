@@ -6,7 +6,7 @@ footer { background: white; clear: both; height: 22vh; padding: 0; text-align: c
 		span.social-links { display: inline-block; width: 67px; }
 		img { vertical-align: middle; }
 	}
-    .locations { background: $blue; color: $blue-light; font-family: 'Lato Bold', sans-serif; font-size: 13px; padding: 32px 0; 
+    .locations { background: $blue; color: $blue-light; font-family: 'Lato', sans-serif; font-size: 13px; font-weight: 700; padding: 32px 0; 
     	a { color: $blue-light; padding-left: 40px; text-decoration: none; text-transform: uppercase; }
     	img { vertical-align: middle; }
     }
@@ -20,7 +20,7 @@ footer { background: white; clear: both; height: 22vh; padding: 0; text-align: c
 
 		img { vertical-align: middle; }
     }
-    .minor-links { background: $dark-darkest; color: $blue-dark; font-family: 'Lato Regular', sans-serif; font-size: 12px; padding: 20px 0; 
+    .minor-links { background: $blue-darkest; color: $blue-dark; font-family: 'Lato', sans-serif; font-size: 12px; font-weight: 400; padding: 20px 0; 
 		a { color: $blue-dark; padding-right: 20px; text-decoration: none; }
     }
 

@@ -1,6 +1,10 @@
 ﻿$(document).ready(function () {
-    promoBackground();
-    homeHeroVideo();
+    // promoBackground();
+    // homeHeroVideo();
+
+    //alert('hi');
+    //
+    mainNav.initMenu();
 });
 
 var promoBackground = function () {
@@ -51,4 +55,23 @@ var homeHeroVideo = function () {
         }, 350);
     });
 };
+
+var mainNav = {
+
+        initMenu: function() {
+            $('li.nav-item').hover(
+                function() { mainNav.openDropdown($(this));},
+                function() { mainNav.closeDropdown(); }
+                );
+        },
+        openDropdown: function(nav) {
+            $('li.nav-item, ul.subnav').removeClass('active');
+            $('ul.subnav').hide();
+            nav.addClass('active');
+            subnav = nav.data('subnav');
+            $('ul#'+subnav).addClass('active');
+        },
+        closeDropdown: function(nav) {
+        }
+}
 
