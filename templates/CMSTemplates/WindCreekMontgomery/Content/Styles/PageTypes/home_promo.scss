@@ -1,0 +1,29 @@
+﻿@import '../global';
+
+.blur { -webkit-filter: blur(1px); filter: blur(1px); }
+#homepage-promos { width: 100vw; background: black; }
+
+.homepage-promo { clear: none; color: white; float: left; height: 100vh; margin: 0; text-align: center; width: 33%;
+
+        .content {padding: 0 20%; 
+
+        h2.headline { 
+            @include relative(top 20%); text-transform: uppercase; 
+        }
+
+        .icon { @include relative(top 15%); opacity: .5; }
+
+        .subheadline { @include relative(top 50%); opacity: 0.1; }
+
+        .category { @include relative(top 75%); text-transform: uppercase; }
+
+        }
+}
+
+/*@media screen and (max-width: 800px){
+    .homepage-promo { width: 50%; }
+}
+
+@media screen and (max-width: 480px){
+    .homepage-promo { width: 100%; }
+}*/

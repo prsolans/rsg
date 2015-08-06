@@ -1,0 +1,38 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="CMSTemplates_WindCreekMontgomery_Blank"
+    Codebehind="Blank.master.cs" %>
+
+<%=DocType%>
+
+<%@ Register TagPrefix="global" TagName="Header" Src="~/CMSTemplates/WindCreekMontgomery/Shared/Header.ascx" %>
+<%@ Register TagPrefix="global" TagName="Footer" Src="~/CMSTemplates/WindCreekMontgomery/Shared/Footer.ascx" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" enableviewstate="false">
+    <title runat="server">Wind Creek Montgomery</title>
+    <asp:Literal runat="server" ID="ltlTags" EnableViewState="false" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="~/CMSTemplates/WindCreekMontgomery/Content/Scripts/global.js"></script>
+    <link type="text/css" rel="stylesheet" href="../Content/Styles/homepage.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100, 400' rel='stylesheet' type='text/css'>
+</head>
+<body class="<%=BodyClass%>" <%=BodyParameters%>>
+
+     <global:Header ID="Header" runat="server" />
+
+    <form id="form1" runat="server">
+    <asp:PlaceHolder runat="server" ID="plcManagers">
+        <ajaxToolkit:ToolkitScriptManager ID="manScript" runat="server" />
+        <cms:CMSPortalManager ID="manPortal" ShortID="m" runat="server" EnableViewState="false" />
+    </asp:PlaceHolder>
+    <cms:ContextMenuPlaceHolder ID="plcCtx" runat="server" />
+    <asp:Label runat="server" ID="lblText" EnableViewState="false" />
+    <asp:ContentPlaceHolder ID="plcMain" runat="server" />
+                    </asp:ContentPlaceHolder>
+
+          <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+
+     <global:Footer ID="Footer" runat="server" />
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿@import 'global';
+@import 'PageTypes/home_promo';
+@import 'WebParts/home-hero';
+
+.home-logo {
+    @include relative(top 3em);
+}
+
+.home-headline {
+    @include relative(top 1em);
+}
+
+#scrolldown {
+    @include absolute(bottom 1em left 0);
+    margin: auto;
+    width: 100%;
+}

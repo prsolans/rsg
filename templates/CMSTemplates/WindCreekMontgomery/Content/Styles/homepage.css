@@ -1,0 +1,230 @@
+﻿.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0px;
+  height: 0px; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+@font-face {
+  font-family: 'Lato Thin';
+  font-weight: 100; }
+
+@font-face {
+  font-family: 'Lato Regular';
+  font-weight: 400; }
+
+header {
+  color: white;
+  height: 56px; }
+
+nav ul li.nav-item {
+  clear: none;
+  display: inline;
+  font-size: 12px;
+  font-weight: 400;
+  list-style: none;
+  padding-right: 20px;
+  text-transform: uppercase; }
+
+footer {
+  background: white;
+  clear: both;
+  height: 22vh;
+  padding: 0;
+  width: 100%; }
+  footer .social {
+    background: #7da3fe;
+    color: white;
+    height: 128px; }
+  footer .locations {
+    background: #283278;
+    color: #607ecf;
+    height: 100px; }
+  footer .major-links {
+    background: #202861;
+    color: white;
+    height: 100px; }
+  footer .minor-links {
+    background: #0e122e;
+    color: #5661b1;
+    height: 40px; }
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0px;
+  height: 0px; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+@font-face {
+  font-family: 'Lato Thin';
+  font-weight: 100; }
+
+@font-face {
+  font-family: 'Lato Regular';
+  font-weight: 400; }
+
+header {
+  color: white;
+  height: 56px; }
+
+nav ul li.nav-item {
+  clear: none;
+  display: inline;
+  font-size: 12px;
+  font-weight: 400;
+  list-style: none;
+  padding-right: 20px;
+  text-transform: uppercase; }
+
+footer {
+  background: white;
+  clear: both;
+  height: 22vh;
+  padding: 0;
+  width: 100%; }
+  footer .social {
+    background: #7da3fe;
+    color: white;
+    height: 128px; }
+  footer .locations {
+    background: #283278;
+    color: #607ecf;
+    height: 100px; }
+  footer .major-links {
+    background: #202861;
+    color: white;
+    height: 100px; }
+  footer .minor-links {
+    background: #0e122e;
+    color: #5661b1;
+    height: 40px; }
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin: 0;
+  padding: 0; }
+
+.blur {
+  -webkit-filter: blur(1px);
+  filter: blur(1px); }
+
+#homepage-promos {
+  width: 100vw;
+  background: black; }
+
+.homepage-promo {
+  clear: none;
+  color: white;
+  float: left;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  width: 33%; }
+  .homepage-promo .content {
+    padding: 0 20%; }
+    .homepage-promo .content h2.headline {
+      position: relative;
+      top: 20%;
+      text-transform: uppercase; }
+    .homepage-promo .content .icon {
+      position: relative;
+      top: 15%;
+      opacity: 0.5; }
+    .homepage-promo .content .subheadline {
+      position: relative;
+      top: 50%;
+      opacity: 0.1; }
+    .homepage-promo .content .category {
+      position: relative;
+      top: 75%;
+      text-transform: uppercase; }
+
+/*@media screen and (max-width: 800px){
+    .homepage-promo { width: 50%; }
+}
+
+@media screen and (max-width: 480px){
+    .homepage-promo { width: 100%; }
+}*/
+.homepage-hero {
+  color: white;
+  height: 100vh;
+  text-align: center; }
+  .homepage-hero .container {
+    height: 100vh;
+    margin: auto;
+    width: 33%; }
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity; }
+
+@media screen and (max-width: 500px) {
+  div {
+    width: 70%; }
+ }
+
+@media screen and (max-device-width: 800px) {
+  html {
+    background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+
+  #bgvid {
+    display: none; }
+ }
+
+.home-logo {
+  position: relative;
+  top: 3em; }
+
+.home-headline {
+  position: relative;
+  top: 1em; }
+
+#scrolldown {
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  margin: auto;
+  width: 100%; }
+
+/*# sourceMappingURL=homepage.css.map */

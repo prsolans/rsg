@@ -1,0 +1,69 @@
+﻿.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0px;
+  height: 0px; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+@font-face {
+  font-family: 'Lato Thin';
+  font-weight: 100; }
+
+@font-face {
+  font-family: 'Lato Regular';
+  font-weight: 400; }
+
+header {
+  color: white;
+  height: 56px; }
+
+nav ul li.nav-item {
+  clear: none;
+  display: inline;
+  font-size: 12px;
+  list-style: none;
+  padding-right: 20px;
+  text-transform: uppercase; }
+
+footer {
+  background: white;
+  clear: both;
+  height: 22vh;
+  padding: 0;
+  width: 100%; }
+  footer .social {
+    background: #7da3fe;
+    color: white;
+    height: 128px; }
+  footer .locations {
+    background: #283278;
+    color: #607ecf;
+    height: 100px; }
+  footer .major-links {
+    background: #202861;
+    color: white;
+    height: 100px; }
+  footer .minor-links {
+    background: #0e122e;
+    color: #5661b1;
+    height: 40px; }
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin: 0;
+  padding: 0; }
+
+
+/*# sourceMappingURL=global.css.map */
