@@ -1,7 +1,14 @@
-﻿header { color: white; height: 56px; }
+﻿header { background: black; color: white; height: 63px; }
 
 nav {
+	padding: 8px 0; 
+	.banner { display: inline; float: right; 
+		.calendar-icon { float: left; padding-right: 20px; padding-top: 10px; }
+		.banner-flag { background-image: url(../Assets/flag-blue.png); background-repeat: no-repeat; float: right; font-size: 14px; height: 47px; padding-top: 6px; text-align: center; width: 139px; }
+	}
+    
     ul {
+    	padding-left: 35px; margin: 0;
         li.nav-item { clear: none; display: inline; font-size: 12px; font-weight: 400; list-style: none; padding-right: 20px; text-transform:uppercase; }
     }
 }

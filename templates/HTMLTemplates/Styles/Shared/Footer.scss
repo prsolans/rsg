@@ -1,10 +1,27 @@
 ﻿@import '../colors';
 
-footer { background: white; clear: both; height: 22vh; padding: 0; width: 100%;
+footer { background: white; clear: both; height: 22vh; padding: 0; text-align: center; width: 100%;
 
-    .social { background: $blue-lightest; color: white; height: 128px; }
-    .locations { background: $blue; color: $blue-light; height: 100px; }
-    .major-links { background: $blue-darker; color: white; height: 100px; }
-    .minor-links { background: $dark-darkest; color: $blue-dark; height: 40px; }
+    .social { background: $blue-lightest; color: white; font-family: 'Din', Arial; font-size: 24px; padding: 50px 0; text-transform: uppercase; 
+		span.social-links { display: inline-block; width: 67px; }
+		img { vertical-align: middle; }
+	}
+    .locations { background: $blue; color: $blue-light; font-family: 'Lato Bold', sans-serif; font-size: 13px; padding: 32px 0; 
+    	a { color: $blue-light; padding-left: 40px; text-decoration: none; text-transform: uppercase; }
+    	img { vertical-align: middle; }
+    }
+    .major-links { background: $blue-darker; color: white; font-family: 'Din', Arial; font-size: 16px; padding: 30px 0;
+		a { color: white; padding-right: 30px; text-decoration: none; text-transform: uppercase; }
+		a+a:before {
+		    content: url('../Assets/slash-blue.png');
+		    padding-right: 30px;
+		    vertical-align: -20%;
+		}
+
+		img { vertical-align: middle; }
+    }
+    .minor-links { background: $dark-darkest; color: $blue-dark; font-family: 'Lato Regular', sans-serif; font-size: 12px; padding: 20px 0; 
+		a { color: $blue-dark; padding-right: 20px; text-decoration: none; }
+    }
 
 }
