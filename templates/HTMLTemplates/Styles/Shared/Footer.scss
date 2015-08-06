@@ -1,0 +1,10 @@
+﻿@import '../colors';
+
+footer { background: white; clear: both; height: 22vh; padding: 0; width: 100%;
+
+    .social { background: $blue-lightest; color: white; height: 128px; }
+    .locations { background: $blue; color: $blue-light; height: 100px; }
+    .major-links { background: $blue-darker; color: white; height: 100px; }
+    .minor-links { background: $dark-darkest; color: $blue-dark; height: 40px; }
+
+}
