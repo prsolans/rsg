@@ -2,8 +2,6 @@
     // promoBackground();
     // homeHeroVideo();
 
-    //alert('hi');
-    //
     mainNav.initMenu();
 });
 
@@ -72,6 +70,10 @@ var mainNav = {
             $('ul#'+subnav).addClass('active');
         },
         closeDropdown: function(nav) {
+            $('main').on('mouseover', function() {
+                $('li.nav-item, ul.subnav').removeClass('active');
+                $('ul.subnav').hide();
+            });
         }
 }
 
