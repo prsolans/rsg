@@ -2,7 +2,7 @@
     // promoBackground();
     // homeHeroVideo();
 
-    mainNav.initMenu();
+    mainNav.init();
 });
 
 var promoBackground = function () {
@@ -56,11 +56,19 @@ var homeHeroVideo = function () {
 
 var mainNav = {
 
-        initMenu: function() {
+        init: function() {
+            mainNav.onScrollStart();
             $('li.nav-item').hover(
                 function() { mainNav.openDropdown($(this));},
                 function() { mainNav.closeDropdown(); }
                 );
+        },
+        onScrollStart: function() {
+            console.log('1');
+            $(document).on("scrollstart",function(){
+                console.log('2');
+              alert("Started scrolling!");
+            });
         },
         openDropdown: function(nav) {
             $('li.nav-item, ul.subnav').removeClass('active');

@@ -1,9 +1,13 @@
 ﻿@import '../colors';
 
-header { background: black; color: white; height: 63px; }
+header { background: $blue-darkest; color: white; height: 63px; }
 
 nav {
-	padding: 8px 0; 
+	padding: 8px 0 12px 20px;
+
+	img.logo { float: left; margin-right: 20px; }
+	img.logo:after { content: url("../Assets/slash-blue.png"); padding-right: 30px; vertical-align: -20%; }
+
 	.banner { display: inline; float: right; 
 		.calendar-icon { float: left; padding-right: 20px; padding-top: 10px; }
 		.banner-flag { background-image: url(../Assets/flag-blue.png); background-repeat: no-repeat; float: right; font-size: 14px; height: 47px; padding-top: 6px; text-align: center; width: 139px; }
