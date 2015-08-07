@@ -2,13 +2,16 @@
 @import 'fonts';
 @import 'Shared/Header';
 @import 'Shared/Footer';
+@import 'casino';
 
 
 html, body { font-family: 'Lato', sans-serif; font-weight: 100; font-size: 24px; margin: 0; padding: 0; }
 
 h1 { } 
 
-main { background: #ccc; min-height: 600px; }
+div.content { background: #ccc; background-size: cover; display: inline-block; margin-top: 63px; min-height: 100%; width: 100%; }
+
+.button { background-image: url(../Assets/Images/button-border.png); border-bottom: 3px solid white; font-size: 15px; line-height: 36px; margin: auto; text-transform: uppercase; width: 172px; }
 
 // Helper mixin for offset positioning
 // About: http://hugogiraudel.com/2013/08/05/offsets-sass-mixin/

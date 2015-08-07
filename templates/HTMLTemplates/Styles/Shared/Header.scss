@@ -1,33 +1,66 @@
 ﻿@import '../colors';
-
-header { background: $blue-darkest; color: white; height: 63px; position: fixed; width: 100%; }
-
 $scrollAnimationWidth: -240px;
 
-nav {
-	padding: 8px 0 12px 20px;
+header { background: white; color: $blue-lightest; height: 63px; position: fixed; width: 100%;
 
-	.logo-container { position: relative; left: $scrollAnimationWidth; opacity: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; -ms-transition: all 1s ease; }
-	.logo-container:after { content: url("../Assets/slash-blue.png"); float: left; padding-right: 30px; padding-top: 10px; }
-	.logo-container.show { left: 0px; opacity: 1; }
-	.logo { float: left; margin-right: 30px; }
+    nav {
+        padding: 8px 0 12px 20px;
 
-	.banner { display: inline; float: right; 
-		.calendar-icon { float: left; padding-right: 20px; padding-top: 10px; }
-		.banner-flag { background-image: url(../Assets/flag-blue.png); background-repeat: no-repeat; float: right; font-size: 14px; height: 47px; padding-top: 6px; text-align: center; width: 139px; }
-	}
-    
-    ul.mainnav {
-    	padding-left: 35px; position: relative; left: $scrollAnimationWidth; margin: 0;  -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; -ms-transition: all 1s ease;         li.nav-item { clear: none; display: inline; font-size: 12px; font-weight: 400; list-style: none; padding-right: 20px; text-transform:uppercase; }
-		li.nav-item.active { color: $blue-dark; }    		
+        .logo-container { position: relative; left: 0px; opacity: 1; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; -ms-transition: all 1s ease; }
+        .logo-container:after { content: url(../Assets/Images/slash-blue.png); float: left; padding-right: 30px; padding-top: 10px; }
+
+        .logo { float: left; margin-right: 30px; }
+
+        .banner { display: inline; float: right;
+            .calendar-icon { background-image: url(../Assets/Icons/calendar-blue.png); background-repeat: no-repeat; background-size: 28px 26px; float: left; height: 28px; padding-right: 20px; margin-top: 10px; width: 26px; }
+            .banner-flag { background-image: url(../Assets/Images/flag-blue.png); background-repeat: no-repeat; color: white; float: right; font-size: 14px; height: 47px; padding-top: 6px; text-align: center; width: 139px; }
+        }
+
+        ul.mainnav {
+            padding-left: 35px; position: relative; left: 0px; margin: 0;  -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; -ms-transition: all 1s ease;
+            li.nav-item { clear: none; display: inline; font-size: 12px; font-weight: 400; list-style: none; padding-right: 20px; text-transform:uppercase; }
+            li.nav-item a { color: $blue-dark; position: relative; text-decoration: none;}
+            li.nav-item a:hover, li.nav-item a:active { color: $blue-darkest; }
+        }
+
+        ul.mainnav.scroll { left: 0px; }
+
+        ul.subnav { clear: both; display: none; line-height: 13px; margin: 0; padding: 40px 0; position: absolute; left: 0; top: 63px; text-align: center; width: 100%;
+            li.subnav-item { color: $blue-dark; display: inline; font-family: 'Lato'; font-size: 13px; font-weight: 700; list-style: none; text-transform: uppercase; }
+            li.subnav-item+li.subnav-item:before { content: ''; padding-right: 50px; }
+            li.subnav-item:hover, li.subnav-item:active { color: white; }
+        }
+
+        ul.subnav.active { background: $blue; display: inline-block !important; }
     }
 
-    ul.mainnav.scroll { left: 0px; }
-
-    ul.subnav { background: white; clear: both; display: none; line-height: 13px; margin: 0; padding: 40px 0; position: absolute; left: 0; top: 63px; text-align: center; width: 100%; 
-		li.subnav-item { color: black; display: inline; font-family: 'Lato'; font-size: 13px; font-weight: 700; list-style: none; text-transform: uppercase; }
-		li.subnav-item+li.subnav-item:before { content: ''; padding-right: 50px; }
-	}
-
-	ul.subnav.active { display: inline-block !important; }
 }
+
+header.home { background: none; color: white; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; -ms-transition: all 1s ease;
+
+    nav {
+
+        .logo-container { left: $scrollAnimationWidth; opacity: 0; }
+        .logo-container.show { left: 0px; opacity: 1; }
+
+        .banner {
+            .calendar-icon { background-image: url(../Assets/Icons/calendar-white.png); }
+        }
+
+        ul.mainnav { left: $scrollAnimationWidth;
+          li.nav-item a { color: white; }
+          li.nav-item a:hover, li.nav-item a:active { color: $blue-light; }
+        }
+
+        ul.mainnav.scroll { left: 0px; }
+
+        ul.subnav { background: white;
+            li.subnav-item { color: $blue-darkest; }
+        }
+
+    }
+
+}
+
+header.home.scroll { background: $blue-darkest; }
+

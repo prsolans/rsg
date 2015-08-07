@@ -13,7 +13,7 @@ footer { background: white; clear: both; height: 22vh; padding: 0; text-align: c
     .major-links { background: $blue-darker; color: white; font-family: 'Din', Arial; font-size: 16px; padding: 30px 0;
 		a { color: white; padding-right: 30px; text-decoration: none; text-transform: uppercase; }
 		a+a:before {
-		    content: url('../Assets/slash-blue.png');
+		    content: url('../Assets/Images/slash-blue.png');
 		    padding-right: 30px;
 		    vertical-align: -20%;
 		}
