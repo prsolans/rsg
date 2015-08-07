@@ -64,10 +64,17 @@ var mainNav = {
                 );
         },
         onScrollStart: function() {
-            console.log('1');
-            $(document).on("scrollstart",function(){
-                console.log('2');
-              alert("Started scrolling!");
+            $(window).scroll(function() {
+                offset_top = $(window).scrollTop();
+                if(offset_top === 0) {
+                    console.log('close');
+                    $('.logo-container').removeClass('show');
+                    $('ul.mainnav').removeClass('scroll');
+                }
+                else { 
+                    $('.logo-container').addClass('show');
+                    $('ul.mainnav').addClass('scroll');
+                }
             });
         },
         openDropdown: function(nav) {
