@@ -24,8 +24,23 @@ img.full-width { width: 100%; }
   .square-content { display: table-cell; vertical-align: middle;
 
     p { font-family: 'Lato'; font-size: 18px; font-weight: 400; line-height: 25px; margin: auto; width: 50%; }
-  .headline-medium { font-size: 30px; line-height: 36px; text-transform: uppercase; }
-  .button { margin-top: 120px; }
+    .headline-medium { font-size: 30px; line-height: 36px; text-transform: uppercase; }
+    .button { margin-top: 120px; }
 
   }
+}
+
+.promo-intro { clear: both; margin: auto; margin-bottom: 60px; text-align: center; width: 1020px;
+
+
+  .promo-text { float: left; width: 50%;
+    .headline-medium { font-family: 'Din'; font-size: 32px; line-height: 42px; margin-top: 40px; text-transform: uppercase; }
+    .headline-small { font-family: 'Lato'; font-size: 16px; font-weight: 700; line-height: 24px; margin-top: 30px; text-transform: uppercase; }
+    p { font-family: 'Lato'; font-size: 16px; font-weight: 400; line-height: 24px; margin-top: 0; }
+    .promo-rules-link { font-family: 'Lato'; font-size: 12px; font-weight: 700; line-height: 42px; margin-top: 25px; text-transform: uppercase; }
+    .promo-rules-link { color: black; }
+  }
+
+  .promo-image-container { float: left; width: 50%; }
+
 }

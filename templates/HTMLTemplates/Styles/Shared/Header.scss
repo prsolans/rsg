@@ -29,6 +29,8 @@ header { background: white; color: $blue-lightest; height: 63px; position: fixed
             li.subnav-item { color: $blue-dark; display: inline; font-family: 'Lato'; font-size: 13px; font-weight: 700; list-style: none; text-transform: uppercase; }
             li.subnav-item+li.subnav-item:before { content: ''; padding-right: 50px; }
             li.subnav-item:hover, li.subnav-item:active { color: white; }
+            li.subnav-item a { color: white; text-decoration: none; }
+            li.subnav-item a:hover, li.subnav-item a:active { color: $blue-dark; }
         }
 
         ul.subnav.active { background: $blue; display: inline-block !important; }
@@ -56,6 +58,8 @@ header.home { background: none; color: white; -webkit-transition: all 1s ease; -
 
         ul.subnav { background: white;
             li.subnav-item { color: $blue-darkest; }
+            li.subnav-item a:hover, li.subnav-item a:active { color: $blue-darkest; }
+
         }
 
     }

@@ -9,9 +9,10 @@ html, body { font-family: 'Lato', sans-serif; font-weight: 100; font-size: 24px;
 
 h1 { } 
 
-div.content { background: #ccc; background-size: cover; display: inline-block; margin-top: 63px; min-height: 100%; width: 100%; }
+div.content { background-size: cover; display: inline-block; margin-top: 63px; min-height: 100%; width: 100%; }
 
-.button { background-image: url(../Assets/Images/button-border.png); border-bottom: 3px solid white; font-size: 15px; line-height: 36px; margin: auto; text-transform: uppercase; width: 172px; }
+.button { background-image: url(../Assets/Images/button-border-white.png); border-bottom: 3px solid white; font-size: 15px; line-height: 36px; margin: auto; text-transform: uppercase; width: 172px; }
+.button.dark { background-image: url(../Assets/Images/button-border-dark.png); border-bottom: 3px solid #343434; width: 137px; }
 
 // Helper mixin for offset positioning
 // About: http://hugogiraudel.com/2013/08/05/offsets-sass-mixin/

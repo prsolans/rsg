@@ -164,13 +164,22 @@ header nav ul.subnav li.subnav-item + li.subnav-item:before {
 header nav ul.subnav li.subnav-item:hover, header nav ul.subnav li.subnav-item:active {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000332}}
+header nav ul.subnav li.subnav-item a {
+  color: white;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000333}}
+header nav ul.subnav li.subnav-item a:hover, header nav ul.subnav li.subnav-item a:active {
+  color: #5661b1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000336}}
 header nav ul.subnav.active {
   background: #283278;
   display: inline-block !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000341}}
 header.home {
   background: none;
   color: white;
@@ -179,46 +188,50 @@ header.home {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000345}}
 header.home nav .logo-container {
   left: -240px;
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000346}}
 header.home nav .logo-container.show {
   left: 0px;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000349}}
 header.home nav .banner .calendar-icon {
   background-image: url(../Assets/Icons/calendar-white.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000352}}
 header.home nav ul.mainnav {
   left: -240px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000353}}
 header.home nav ul.mainnav li.nav-item a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000354}}
 header.home nav ul.mainnav li.nav-item a:hover, header.home nav ul.mainnav li.nav-item a:active {
   color: #607ecf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000357}}
 header.home nav ul.mainnav.scroll {
   left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000359}}
 header.home nav ul.subnav {
   background: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000360}}
 header.home nav ul.subnav li.subnav-item {
   color: #0e122e;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000361}}
+header.home nav ul.subnav li.subnav-item a:hover, header.home nav ul.subnav li.subnav-item a:active {
+  color: #0e122e;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000369}}
 header.home.scroll {
   background: #0e122e;
 }
@@ -429,6 +442,63 @@ img.full-width {
   margin-top: 120px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000333}}
+.promo-intro {
+  clear: both;
+  margin: auto;
+  margin-bottom: 60px;
+  text-align: center;
+  width: 1020px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000336}}
+.promo-intro .promo-text {
+  float: left;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000337}}
+.promo-intro .promo-text .headline-medium {
+  font-family: 'Din';
+  font-size: 32px;
+  line-height: 42px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000338}}
+.promo-intro .promo-text .headline-small {
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000339}}
+.promo-intro .promo-text p {
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000340}}
+.promo-intro .promo-text .promo-rules-link {
+  font-family: 'Lato';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000341}}
+.promo-intro .promo-text .promo-rules-link {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000344}}
+.promo-intro .promo-image-container {
+  float: left;
+  width: 50%;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\000038}}
 html, body {
   font-family: 'Lato', sans-serif;
@@ -440,7 +510,6 @@ html, body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000312}}
 div.content {
-  background: #ccc;
   background-size: cover;
   display: inline-block;
   margin-top: 63px;
@@ -450,13 +519,20 @@ div.content {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000314}}
 .button {
-  background-image: url(../Assets/Images/button-border.png);
+  background-image: url(../Assets/Images/button-border-white.png);
   border-bottom: 3px solid white;
   font-size: 15px;
   line-height: 36px;
   margin: auto;
   text-transform: uppercase;
   width: 172px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000315}}
+.button.dark {
+  background-image: url(../Assets/Images/button-border-dark.png);
+  border-bottom: 3px solid #343434;
+  width: 137px;
 }
 
 /*# sourceMappingURL=HTMLTemplates.css.map */
