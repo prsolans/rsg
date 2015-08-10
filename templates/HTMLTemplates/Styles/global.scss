@@ -14,6 +14,13 @@ div.content { background-size: cover; display: inline-block; margin-top: 63px; m
 .button { background-image: url(../Assets/Images/button-border-white.png); border-bottom: 3px solid white; font-size: 15px; line-height: 36px; margin: auto; text-transform: uppercase; width: 172px; }
 .button.dark { background-image: url(../Assets/Images/button-border-dark.png); border-bottom: 3px solid #343434; width: 137px; }
 
+.headline-small { color: $blue-lightest; font-size: 26px; }
+.headline-medium { color: black; font-size: 44px;}
+.headline-large { color: black; font-size: 90px; line-height: 74px; }
+
+.divider { background: $blue-lightest; height: 7px; margin: auto; margin-top: 37px; width: 53px; }
+
+
 // Helper mixin for offset positioning
 // About: http://hugogiraudel.com/2013/08/05/offsets-sass-mixin/
 // ---

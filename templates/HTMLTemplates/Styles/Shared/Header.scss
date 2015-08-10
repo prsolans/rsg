@@ -1,7 +1,7 @@
 ﻿@import '../colors';
 $scrollAnimationWidth: -240px;
 
-header { background: white; color: $blue-lightest; height: 63px; position: fixed; width: 100%;
+header { background: white; color: $blue-lightest; height: 63px; position: fixed; width: 100%; z-index: 10000;
 
     nav {
         padding: 8px 0 12px 20px;

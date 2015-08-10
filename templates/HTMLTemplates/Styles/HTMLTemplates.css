@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\000031}}
 .clearfix:after {
   content: ".";
   display: block;
@@ -8,17 +8,17 @@
   height: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\000039}}
 .clearfix {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\0000312}}
 html[xmlns] .clearfix {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/reset\.scss}line{font-family:\0000315}}
 * html .clearfix {
   height: 1%;
 }
@@ -35,19 +35,20 @@ html[xmlns] .clearfix {
   font-family: 'Lato Bold';
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000034}}
 header {
   background: white;
   color: #7da3fe;
   height: 63px;
   position: fixed;
   width: 100%;
+  z-index: 10000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000036}}
 header nav {
   padding: 8px 0 12px 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\000039}}
 header nav .logo-container {
   position: relative;
   left: 0px;
@@ -57,24 +58,24 @@ header nav .logo-container {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000310}}
 header nav .logo-container:after {
   content: url(../Assets/Images/slash-blue.png);
   float: left;
   padding-right: 30px;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000312}}
 header nav .logo {
   float: left;
   margin-right: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000314}}
 header nav .banner {
   display: inline;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000315}}
 header nav .banner .calendar-icon {
   background-image: url(../Assets/Icons/calendar-blue.png);
   background-repeat: no-repeat;
@@ -85,7 +86,7 @@ header nav .banner .calendar-icon {
   margin-top: 10px;
   width: 26px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000316}}
 header nav .banner .banner-flag {
   background-image: url(../Assets/Images/flag-blue.png);
   background-repeat: no-repeat;
@@ -97,7 +98,7 @@ header nav .banner .banner-flag {
   text-align: center;
   width: 139px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000319}}
 header nav ul.mainnav {
   padding-left: 35px;
   position: relative;
@@ -108,7 +109,7 @@ header nav ul.mainnav {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000321}}
 header nav ul.mainnav li.nav-item {
   clear: none;
   display: inline;
@@ -118,21 +119,21 @@ header nav ul.mainnav li.nav-item {
   padding-right: 20px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000322}}
 header nav ul.mainnav li.nav-item a {
   color: #5661b1;
   position: relative;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000323}}
 header nav ul.mainnav li.nav-item a:hover, header nav ul.mainnav li.nav-item a:active {
   color: #0e122e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000326}}
 header nav ul.mainnav.scroll {
   left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000328}}
 header nav ul.subnav {
   clear: both;
   display: none;
@@ -145,7 +146,7 @@ header nav ul.subnav {
   text-align: center;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000329}}
 header nav ul.subnav li.subnav-item {
   color: #5661b1;
   display: inline;
@@ -155,31 +156,31 @@ header nav ul.subnav li.subnav-item {
   list-style: none;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000330}}
 header nav ul.subnav li.subnav-item + li.subnav-item:before {
   content: '';
   padding-right: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000331}}
 header nav ul.subnav li.subnav-item:hover, header nav ul.subnav li.subnav-item:active {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000332}}
 header nav ul.subnav li.subnav-item a {
   color: white;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000333}}
 header nav ul.subnav li.subnav-item a:hover, header nav ul.subnav li.subnav-item a:active {
   color: #5661b1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000336}}
 header nav ul.subnav.active {
   background: #283278;
   display: inline-block !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000341}}
 header.home {
   background: none;
   color: white;
@@ -188,55 +189,55 @@ header.home {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000345}}
 header.home nav .logo-container {
   left: -240px;
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000346}}
 header.home nav .logo-container.show {
   left: 0px;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000349}}
 header.home nav .banner .calendar-icon {
   background-image: url(../Assets/Icons/calendar-white.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000352}}
 header.home nav ul.mainnav {
   left: -240px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000353}}
 header.home nav ul.mainnav li.nav-item a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000354}}
 header.home nav ul.mainnav li.nav-item a:hover, header.home nav ul.mainnav li.nav-item a:active {
   color: #607ecf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000357}}
 header.home nav ul.mainnav.scroll {
   left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000359}}
 header.home nav ul.subnav {
   background: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000360}}
 header.home nav ul.subnav li.subnav-item {
   color: #0e122e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000361}}
 header.home nav ul.subnav li.subnav-item a:hover, header.home nav ul.subnav li.subnav-item a:active {
   color: #0e122e;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Header\.scss}line{font-family:\0000369}}
 header.home.scroll {
   background: #0e122e;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000033}}
 footer {
   background: white;
   clear: both;
@@ -245,7 +246,7 @@ footer {
   text-align: center;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000035}}
 footer .social {
   background: #7da3fe;
   color: white;
@@ -254,16 +255,16 @@ footer .social {
   padding: 50px 0;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000036}}
 footer .social span.social-links {
   display: inline-block;
   width: 67px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000037}}
 footer .social img {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\000039}}
 footer .locations {
   background: #283278;
   color: #607ecf;
@@ -272,18 +273,18 @@ footer .locations {
   font-weight: 700;
   padding: 32px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000310}}
 footer .locations a {
   color: #607ecf;
   padding-left: 40px;
   text-decoration: none;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000311}}
 footer .locations img {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000313}}
 footer .major-links {
   background: #202861;
   color: white;
@@ -291,24 +292,24 @@ footer .major-links {
   font-size: 16px;
   padding: 30px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000314}}
 footer .major-links a {
   color: white;
   padding-right: 30px;
   text-decoration: none;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000315}}
 footer .major-links a + a:before {
   content: url("../Assets/Images/slash-blue.png");
   padding-right: 30px;
   vertical-align: -20%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000321}}
 footer .major-links img {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000323}}
 footer .minor-links {
   background: #0e122e;
   color: #5661b1;
@@ -317,14 +318,14 @@ footer .minor-links {
   font-weight: 400;
   padding: 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/Shared\/Footer\.scss}line{font-family:\0000324}}
 footer .minor-links a {
   color: #5661b1;
   padding-right: 20px;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000031}}
 .page-header {
   background: white;
   line-height: 41px;
@@ -332,23 +333,23 @@ footer .minor-links a {
   text-align: center;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000033}}
 .page-header .headline-small {
   color: #7da3fe;
   font-size: 26px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000034}}
 .page-header .headline-medium {
   color: black;
   font-size: 44px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000035}}
 .page-header .headline-large {
   color: black;
   font-size: 90px;
   line-height: 74px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\000037}}
 .page-header .divider {
   background: #7da3fe;
   height: 7px;
@@ -357,19 +358,19 @@ footer .minor-links a {
   width: 53px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000310}}
 img.full-width {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000312}}
 .bluebg-content {
   background: #283278;
   padding: 66px 0;
   text-align: center;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000314}}
 .bluebg-content .headline-small {
   color: #7da3fe;
   font-family: 'Lato';
@@ -377,13 +378,13 @@ img.full-width {
   font-weight: 700;
   line-height: 33px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000315}}
 .bluebg-content .headline-medium {
   color: white;
   font-size: 42px;
   line-height: 48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000316}}
 .bluebg-content p.text {
   color: #cbcee3;
   font-family: 'Lato';
@@ -396,7 +397,7 @@ img.full-width {
   text-transform: none;
   width: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000318}}
 .bluebg-content .divider {
   background: #7da3fe;
   height: 7px;
@@ -405,10 +406,10 @@ img.full-width {
   width: 53px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000322}}
 .fifty-square {
   background: #607ecf;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   display: table;
@@ -417,12 +418,12 @@ img.full-width {
   text-align: center;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000324}}
 .fifty-square .square-content {
   display: table-cell;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000326}}
 .fifty-square .square-content p {
   font-family: 'Lato';
   font-size: 18px;
@@ -431,18 +432,18 @@ img.full-width {
   margin: auto;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000327}}
 .fifty-square .square-content .headline-medium {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000328}}
 .fifty-square .square-content .button {
   margin-top: 120px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000333}}
 .promo-intro {
   clear: both;
   margin: auto;
@@ -450,12 +451,12 @@ img.full-width {
   text-align: center;
   width: 1020px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000336}}
 .promo-intro .promo-text {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000337}}
 .promo-intro .promo-text .headline-medium {
   font-family: 'Din';
   font-size: 32px;
@@ -463,7 +464,7 @@ img.full-width {
   margin-top: 40px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000338}}
 .promo-intro .promo-text .headline-small {
   font-family: 'Lato';
   font-size: 16px;
@@ -472,15 +473,16 @@ img.full-width {
   margin-top: 30px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000339}}
 .promo-intro .promo-text p {
   font-family: 'Lato';
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin-bottom: 40px;
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000340}}
 .promo-intro .promo-text .promo-rules-link {
   font-family: 'Lato';
   font-size: 12px;
@@ -489,17 +491,82 @@ img.full-width {
   margin-top: 25px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000341}}
 .promo-intro .promo-text .promo-rules-link {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000344}}
 .promo-intro .promo-image-container {
   float: left;
   width: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000346}}
+.promo-intro .promo-image-container .arrow-overlay {
+  position: absolute;
+  top: 45%;
+  left: 80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000356}}
+.promo-detail .promo-image-container {
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000358}}
+.promo-detail .promo-text-container {
+  background: none;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000365}}
+.promo-detail .promo-text-container .headline-medium, .promo-detail .promo-text-container .headline-large {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000367}}
+.promo-detail .promo-text-container .bg-large-blur {
+  background-position: center center;
+  background-size: 250%;
+  filter: blur(14px);
+  -o-filter: blur(14px);
+  -ms-filter: blur(14px);
+  -moz-filter: blur(14px);
+  -webkit-filter: blur(14px);
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 120%;
+  height: 120%;
+  z-index: -1;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000384}}
+.promo-detail .promo-text-container .bg-large-blur:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all .3s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/casino\.scss}line{font-family:\0000398}}
+.promo-detail .detail-footer {
+  background: #25262c;
+  clear: both;
+  color: white;
+  padding: 50px 110px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\000038}}
 html, body {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -508,7 +575,7 @@ html, body {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000312}}
 div.content {
   background-size: cover;
   display: inline-block;
@@ -517,7 +584,7 @@ div.content {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000314}}
 .button {
   background-image: url(../Assets/Images/button-border-white.png);
   border-bottom: 3px solid white;
@@ -528,11 +595,39 @@ div.content {
   width: 172px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000315}}
 .button.dark {
   background-image: url(../Assets/Images/button-border-dark.png);
   border-bottom: 3px solid #343434;
   width: 137px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000317}}
+.headline-small {
+  color: #7da3fe;
+  font-size: 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000318}}
+.headline-medium {
+  color: black;
+  font-size: 44px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000319}}
+.headline-large {
+  color: black;
+  font-size: 90px;
+  line-height: 74px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/paul\/Documents\/Projects\/Merge\/rsg\/templates\/HTMLTemplates\/Styles\/global\.scss}line{font-family:\0000321}}
+.divider {
+  background: #7da3fe;
+  height: 7px;
+  margin: auto;
+  margin-top: 37px;
+  width: 53px;
 }
 
 /*# sourceMappingURL=HTMLTemplates.css.map */
